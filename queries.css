@@ -1,0 +1,39 @@
+@media (max-width: 88em) {
+  .sidebar {
+    flex-basis: 40em;
+    padding: 3rem 3rem 4rem 3rem;
+  }
+  .form__label,
+  .form__input {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 73em) {
+  .sidebar {
+    flex-basis: 30em;
+    padding: 3rem 2.4rem 4rem 2.4rem;
+  }
+  .form {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .workout {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 60em) {
+  body {
+    flex-direction: column;
+  }
+  .workouts {
+    height: 15rem;
+  }
+  .workout {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 36em) {
+  .workout {
+    grid-template-columns: 1fr 1fr;
+  }
+}
